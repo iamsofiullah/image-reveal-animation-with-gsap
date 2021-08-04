@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131313;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.img_container {
+    margin: 20% 0;
+    width: 70%;
+    position: relative;
+}
+
+.img_container:nth-child(even) {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    transform-origin: left;
+    object-fit: cover;
+}
+
+.mask {
+    visibility: hidden;
+    position: relative;
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+}
